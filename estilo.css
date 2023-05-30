@@ -1,0 +1,102 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    display: flex;
+      justify-content: space-around;
+
+    height: 50px;
+    width: 100%;
+    background-color: bisque;
+
+
+}
+
+#logo{
+    padding: 10px;
+   
+    height: 50px;
+    width: 100px;
+    
+  
+
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+  
+    height: 50px;
+   padding: 10px;
+
+}
+nav a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+} 
+
+.buscador{
+ display: flex;
+    padding: 20px;
+    margin: auto;
+   align-items: center;
+   justify-content: center;
+}
+
+.list-card{
+margin: 0 20px;
+display: grid;grid-template-columns: repeat(auto-fit,minmax(300px, 1fr) );
+gap: 5px;
+justify-items: center;
+
+}
+.iten-card{
+    max-width: 200px;
+    width: 100%;
+    padding: 5px;
+    background-color: blue;
+
+}
+.iten-card img{
+    width: 100%;
+    object-fit: contain;
+}
+.content{
+
+
+}
+.content h2{
+    padding: 0px 10px;
+
+}
+
+.content p{
+
+    padding: 0px 10px;
+
+}
+.content span{
+    padding: 0px 10px;
+    background-color: azure;
+    border-radius: 5px;
+
+}
+
+.content div{
+    display: flex;
+   margin: 10px;
+   border-radius: 5px;
+   justify-content: center;
+}
+
+.content div button{
+   
+   margin: 10px;
+   border-radius: 5px;
+   padding:5px 10px;
+   border: none;
+   
+}
